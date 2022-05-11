@@ -1,8 +1,8 @@
-# **sena-base-2021 v5.1.0**
+# **Actividades de documentación y entrega de software en proceso de implantación**
 
-## **https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/**
+## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF18_233104_Programacion_Software/](https://ecored-sena.github.io/CF18_233104_Programacion_Software/)
 
 #
 
