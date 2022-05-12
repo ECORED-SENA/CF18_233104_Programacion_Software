@@ -30,7 +30,7 @@
     p.mb-5 Estos documentos son muy importantes porque se constituyen en la evidencia de los compromisos adquiridos entre el cliente y el proveedor, que normalmente se expresan bajo un contrato. Apoyan la memoria histórica de lo realizado durante el proyecto sobre todo en la parte de pruebas, lo que es de especial atención cuando en una organización se presentan altos índices de rotación de personal.
     .row.justify-content-center.mb-5
       .col-lg-7
-        a.anexo.mb-4(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('downloads/Acta_entrega.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

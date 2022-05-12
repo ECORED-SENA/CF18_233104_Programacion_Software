@@ -222,7 +222,7 @@
           p De acuerdo con Edgepoint learning (2020), hay que establecer plazos y métodos de implementación, estos deben ser claros y realistas para no jugar con el tiempo de los usuarios, ni la productividad de la empresa. A continuación algunos tips de aporte en este ítem.
     .row.justify-content-center.mb-5
       .col-lg-9
-        a.anexo.mb-4(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('downloads/Estructura_plan_capacitacion.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

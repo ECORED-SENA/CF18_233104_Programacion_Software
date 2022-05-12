@@ -154,17 +154,36 @@
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 En una solución de software o de un sistema de información por procesamiento electrónico de datos, los #[b manuales técnicos] tienen el objetivo de mostrar, informar, esclarecer las estructuras que conforman la aplicación y cómo fue construida. Se dirige, especialmente, al personal técnico: desarrolladores de software, técnicos en sistemas, ingenieros de infraestructura y redes, arquitectos de software e ingenieros de pruebas, entre otros, quienes manejan la aplicación o el componente formativo.
-    figure.mb-5(data-aos="zoom-in")
-      img(src='@/assets/curso/tema1/img11.svg' style="width: 900px").m-auto
+    .row.justify-content-center.mb-5
+      .col-lg-10.p-4.bg-color8(data-aos="zoom-in")
+        .row.align-items-center
+          .col-lg-2.mb-4.mb-lg-0
+            figure(data-aos="zoom-in-up")
+              img(src='@/assets/curso/tema1/img22.svg' style="width: 70px").m-auto
+          .col-lg-10
+            p Se recomienda que en su estructura se presenten los siguientes aspectos:
+            .row.justify-content-around
+              .col-lg-5.bg-color9.mb-4.mb-lg-0
+                ul.lista-ul.mt-3
+                  li 
+                    i.fas.fa-database(style="color: #F7CB50")
+                    |
+                    p.mb-0.text-small #[b El objetivo y alcance del sistema.]
+              .col-lg-5.bg-color9
+                ul.lista-ul.mt-3
+                  li 
+                    i.fas.fa-database(style="color: #F7CB50")
+                    |
+                    p.mb-0.text-small #[b Una descripción de la base de datos.]
     p.mb-5 Basados en el ciclo de vida del desarrollo de software que normalmente se aplica en la elaboración de los sistemas de información por procesamiento electrónico de datos, es de vital importancia que la documentación técnica y de operaciones de una organización se registre en el manual técnico, el cual llevará una secuencia lógica de implementación para la instalación, configuración y despliegue. Este debe describir como mínimo los siguientes elementos:
-    .row.mb-5
+    .row.align-items-center.mb-5
       .col-lg-6.mb-4.mb-lg-0
         LineaTiempoD.color-secundario
-          p.text-small(numero="1" titulo="Objetivos y alcances del sistema") Definir los objetivos del sistema y dividirlos tanto en generales como específicos, dependiendo de los componentes involucrados.
-          p.text-small(numero="2" titulo="Diseño de reportes y pantallas") Utilizar ilustraciones estándar que faciliten el entendimiento del paso a paso de las actividades a realizar.
-          p.text-small(numero="3" titulo="Prerequisitos") Dentro de los prerrequisitos de instalación del sistema se encuentran: sistema operativo de los servidores de aplicación y base de datos, marca y versión de la base de datos y de los servidores de aplicación, navegador, configuraciones de seguridad, contenedores, etc.
-          p.text-small(numero="4" titulo="<em>Frameworks</em> y estándares") Nombres y versiones de los #[i frameworks] y estándares bajo los cuales está construido el sistema.
-          p.text-small(numero="5" titulo="Diagramas")
+          p(numero="1" titulo="Objetivos y alcances del sistema") Definir los objetivos del sistema y dividirlos tanto en generales como específicos, dependiendo de los componentes involucrados.
+          p(numero="2" titulo="Diseño de reportes y pantallas") Utilizar ilustraciones estándar que faciliten el entendimiento del paso a paso de las actividades a realizar.
+          p(numero="3" titulo="Prerequisitos") Dentro de los prerrequisitos de instalación del sistema se encuentran: sistema operativo de los servidores de aplicación y base de datos, marca y versión de la base de datos y de los servidores de aplicación, navegador, configuraciones de seguridad, contenedores, etc.
+          p(numero="4" titulo="<em>Frameworks</em> y estándares") Nombres y versiones de los #[i frameworks] y estándares bajo los cuales está construido el sistema.
+          p(numero="5" titulo="Diagramas")
             ul.lista-ul
               li 
                 i.fas.fa-database(style="color: #F7CB50")
@@ -321,7 +340,7 @@
     .tabla-b.color-acento-contenido.mb-5
       table
         tr
-          th(style="width: 10%")
+          th(style="width: 15%")
             figure
               img(src='@/assets/curso/tema1/img14.svg' style="width: 30px").m-auto
           th(style="width: 20%") Procesador
@@ -389,7 +408,7 @@
       .col-auto
         figure
           img(src='@/assets/curso/tema1/img13.svg' style="width: 20px").m-auto
-      .col-6
+      .col-10.col-lg-6
         p.mb-0.text-deco1 Descripción general de las características del sistema o del producto
     p.mb-5 Se describen las características básicas del #[i software] o del producto en cuestión, por lo general se usa una lista o una tabla.
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in-up")
@@ -421,7 +440,7 @@
     p.mb-5 A continuación se invita a conocer los componentes mínimos que se incluirán en la estructura de un manual de instalación:
     .row.justify-content-center
       .col-lg-4
-        a.anexo.mb-4(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('downloads/Formato_instalacion.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
