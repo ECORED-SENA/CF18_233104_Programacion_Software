@@ -22,7 +22,7 @@
           img(src='@/assets/curso/tema3/img2.png' style="width: 450px").m-auto
       .col-lg-7
         p Al momento de realizar la entrega de la solución informática esta debió ser probada de manera interna por los desarrolladores para examinar la correcta funcionalidad de todos sus procesos, permitiendo conocer la calidad del mismo, así como los posibles fallos que se puedan presentar a corto, medio o largo plazo, con el fin de lograr predecir su comportamiento durante la implantación, su grado de manejabilidad y lo amigable que pueda ser su interfaz gráfica.
-        p En el caso de los usuarios, las pruebas van dadas por las necesidades y el contexto que representa a cada uno de los clientes, en otras palabras, la misma prueba no puede servir para todos los escenarios, porque puede ser que una prueba para un software específico sea la adecuada, pero en otro puede llegar a ser perjudicial. En el caso puntual de los clientes se debe hacer una prueba de funcionamiento y rendimiento en el sitio, bajo las condiciones y entorno de la empresa, con las funciones y datos reales, esta prueba debe ser ejecutada y analizada por las dos partes, se puede hacer  en una sola jornada o si el cliente lo desea se puede hacer dos días o hasta en una semana, solo así, el cliente sentirá la seguridad de firmar el acta de entrega a satisfacción.
+        p En el caso de los usuarios, las pruebas van dadas por las necesidades y el contexto que representa a cada uno de los clientes, en otras palabras, la misma prueba no puede servir para todos los escenarios, porque puede ser que una prueba para un #[i software] específico sea la adecuada, pero en otro puede llegar a ser perjudicial. En el caso puntual de los clientes se debe hacer una prueba de funcionamiento y rendimiento en el sitio, bajo las condiciones y entorno de la empresa, con las funciones y datos reales, esta prueba debe ser ejecutada y analizada por las dos partes, se puede hacer  en una sola jornada o si el cliente lo desea se puede hacer dos días o hasta en una semana, solo así, el cliente sentirá la seguridad de firmar el acta de entrega a satisfacción.
     .row.justify-content-center.mb-5
       .col-lg-10
         .cajon.color-acento-contenido.p-4
@@ -40,8 +40,8 @@
     #t_3_2
     .titulo-segundo.color-acento-contenido
       h2 3.2 Mantenimiento de #[i software]
-    p El eje central de este apartado es indicar cómo se debe realizar el mantenimiento del software de forma adecuada, de tal manera que la calidad del aplicativo no se deteriore como resultado del uso, debe enfocarse en la siguiente pregunta: ¿cómo debe mantenerse el software para preservar su fiabilidad?
-    p.mb-4 Esta es la fase que se presenta dentro del ciclo de vida de desarrollo de software después de la fase de puesta en producción o implementación del producto, se caracteriza por:
+    p El eje central de este apartado es indicar cómo se debe realizar el mantenimiento del #[i software] de forma adecuada, de tal manera que la calidad del aplicativo no se deteriore como resultado del uso, debe enfocarse en la siguiente pregunta: ¿cómo debe mantenerse el #[i software] para preservar su fiabilidad?
+    p.mb-4 Esta es la fase que se presenta dentro del ciclo de vida de desarrollo de #[i software] después de la fase de puesta en producción o implementación del producto, se caracteriza por:
     ul.lista-ul.mb-4
       li 
         i.fas.fa-database(style="color: #F7CB50")
@@ -52,7 +52,7 @@
       li 
         i.fas.fa-database(style="color: #F7CB50")
         | En el momento de detectar los defectos deben ser ingresados en el sistema de rastreo de defectos.
-    p.mb-5 El mantenimiento de software se puede clasificar en los siguientes tipos, los cuales se diferencian por el porcentaje aproximado respecto del conjunto de mantenimiento:
+    p.mb-5 El mantenimiento de #[i software] se puede clasificar en los siguientes tipos, los cuales se diferencian por el porcentaje aproximado respecto del conjunto de mantenimiento:
     .row.mb-5(data-aos="zoom-in")
       .col-lg-3.p-4.bg-color4
         figure.mb-5
@@ -63,18 +63,17 @@
         figure.mb-5
           img(src='@/assets/curso/tema3/img4.png' style="width: 150px").m-auto
         h4.text-center Mantenimiento adaptativo
-        p Equivale a un 18% y pretende adaptar el software a cambios en su ecosistema tecnológico (sistemas operativos, servidores de aplicaciones, bases de datos etc.).
+        p Equivale a un 18% y pretende adaptar el #[i software] a cambios en su ecosistema tecnológico (sistemas operativos, servidores de aplicaciones, bases de datos etc.).
       .col-lg-3.p-4.bg-color4
         figure.mb-5
           img(src='@/assets/curso/tema3/img5.png' style="width: 150px").m-auto
         h4.text-center Mantenimiento correctivo
-        p Equivale a un 17% y se orienta a la corrección de errores del software detectados durante su uso.
+        p Equivale a un 17% y se orienta a la corrección de errores del #[i software] detectados durante su uso.
       .col-lg-3.p-4.bg-color5
         figure.mb-5
           img(src='@/assets/curso/tema3/img6.png' style="width: 150px").m-auto
         h4.text-center Mantenimiento preventivo
         p Equivale a un 5% y pretende facilitar mantenimientos futuros, por ejemplo, verificación de las precondiciones.
-    p.mb-5 Recuerde que el mantenimiento de software es una de las actividades más comunes en la ingeniería de software, que consiste en el proceso de mejora y optimización del software desplegado (revisión del programa y corrección de los defectos).
     .row.justify-content-center
       .col-lg-10.p-4.bg-color7(data-aos="zoom-in")
         .row.align-items-center
@@ -82,7 +81,7 @@
             figure
               img(src='@/assets/curso/tema3/img1.svg' style="width: 60px").m-auto
           .col
-            p.mb-0.text-white Recuerde que el mantenimiento de software es una de las actividades más comunes en la ingeniería de software, que consiste en el proceso de mejora y optimización del software desplegado (revisión del programa y corrección de los defectos).
+            p.mb-0.text-white Recuerde que el mantenimiento de #[i software] es una de las actividades más comunes en la ingeniería de #[i software], que consiste en el proceso de mejora y optimización del #[i software] desplegado (revisión del programa y corrección de los defectos).
 
 </template>
 

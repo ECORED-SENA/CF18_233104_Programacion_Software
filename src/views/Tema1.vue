@@ -11,7 +11,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .cajon.color-acento-contenido.p-4
-          p La documentación es el registro de todos los pasos necesarios “cómo” se realizan; el desarrollo de software es esencialmente un grupo de procesos interrelacionados, por lo cual es importante llevar una correcta documentación de los procesos en los formatos establecidos.
+          p La documentación es el registro de todos los pasos necesarios “cómo” se realizan; el desarrollo de #[i software] es esencialmente un grupo de procesos interrelacionados, por lo cual es importante llevar una correcta documentación de los procesos en los formatos establecidos.
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in-up")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img1.png')})`}"
@@ -153,7 +153,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img7.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 En una solución de software o de un sistema de información por procesamiento electrónico de datos, los #[b manuales técnicos] tienen el objetivo de mostrar, informar, esclarecer las estructuras que conforman la aplicación y cómo fue construida. Se dirige, especialmente, al personal técnico: desarrolladores de software, técnicos en sistemas, ingenieros de infraestructura y redes, arquitectos de software e ingenieros de pruebas, entre otros, quienes manejan la aplicación o el componente formativo.
+        p.mb-0 En una solución de #[i software] o de un sistema de información por procesamiento electrónico de datos, los #[b manuales técnicos] tienen el objetivo de mostrar, informar, esclarecer las estructuras que conforman la aplicación y cómo fue construida. Se dirige, especialmente, al personal técnico: desarrolladores de #[i software], técnicos en sistemas, ingenieros de infraestructura y redes, arquitectos de #[i software] e ingenieros de pruebas, entre otros, quienes manejan la aplicación o el componente formativo.
     .row.justify-content-center.mb-5
       .col-lg-10.p-4.bg-color8(data-aos="zoom-in")
         .row.align-items-center
@@ -162,26 +162,32 @@
               img(src='@/assets/curso/tema1/img22.svg' style="width: 70px").m-auto
           .col-lg-10
             p Se recomienda que en su estructura se presenten los siguientes aspectos:
-            .row.justify-content-around
-              .col-lg-5.bg-color9.mb-4.mb-lg-0
+            .row
+              .col-lg.bg-color9.mb-4.mb-lg-0
                 ul.lista-ul.mt-3
                   li 
                     i.fas.fa-database(style="color: #F7CB50")
                     |
                     p.mb-0.text-small #[b El objetivo y alcance del sistema.]
-              .col-lg-5.bg-color9
+              .col-lg.bg-color9.mb-4.mb-lg-0
                 ul.lista-ul.mt-3
                   li 
                     i.fas.fa-database(style="color: #F7CB50")
                     |
                     p.mb-0.text-small #[b Una descripción de la base de datos.]
-    p.mb-5 Basados en el ciclo de vida del desarrollo de software que normalmente se aplica en la elaboración de los sistemas de información por procesamiento electrónico de datos, es de vital importancia que la documentación técnica y de operaciones de una organización se registre en el manual técnico, el cual llevará una secuencia lógica de implementación para la instalación, configuración y despliegue. Este debe describir como mínimo los siguientes elementos:
+              .col-lg.bg-color9
+                ul.lista-ul.mt-3
+                  li 
+                    i.fas.fa-database(style="color: #F7CB50")
+                    |
+                    p.mb-0.text-small #[b Un diseño de reportes y pantallas.]
+    p.mb-5 Basados en el ciclo de vida del desarrollo de #[i software] que normalmente se aplica en la elaboración de los sistemas de información por procesamiento electrónico de datos, es de vital importancia que la documentación técnica y de operaciones de una organización se registre en el manual técnico, el cual llevará una secuencia lógica de implementación para la instalación, configuración y despliegue. Este debe describir como mínimo los siguientes elementos:
     .row.align-items-center.mb-5
       .col-lg-6.mb-4.mb-lg-0
         LineaTiempoD.color-secundario
           p(numero="1" titulo="Objetivos y alcances del sistema") Definir los objetivos del sistema y dividirlos tanto en generales como específicos, dependiendo de los componentes involucrados.
           p(numero="2" titulo="Diseño de reportes y pantallas") Utilizar ilustraciones estándar que faciliten el entendimiento del paso a paso de las actividades a realizar.
-          p(numero="3" titulo="Prerequisitos") Dentro de los prerrequisitos de instalación del sistema se encuentran: sistema operativo de los servidores de aplicación y base de datos, marca y versión de la base de datos y de los servidores de aplicación, navegador, configuraciones de seguridad, contenedores, etc.
+          p(numero="3" titulo="Prerrequisitos") Dentro de los prerrequisitos de instalación del sistema se encuentran: sistema operativo de los servidores de aplicación y base de datos, marca y versión de la base de datos y de los servidores de aplicación, navegador, configuraciones de seguridad, contenedores, etc.
           p(numero="4" titulo="<em>Frameworks</em> y estándares") Nombres y versiones de los #[i frameworks] y estándares bajo los cuales está construido el sistema.
           p(numero="5" titulo="Diagramas")
             ul.lista-ul
@@ -190,7 +196,7 @@
                 | Diagramas de caso de uso del sistema.
               li 
                 i.fas.fa-database(style="color: #F7CB50")
-                | Diagramas ER: modelo entidad relación del sistema.
+                | Diagramas ER modelo entidad relación del sistema.
               li 
                 i.fas.fa-database(style="color: #F7CB50")
                 | Diagrama de componentes del sistema.
@@ -206,9 +212,9 @@
               li 
                 i.fas.fa-database(style="color: #F7CB50")
                 | Diagrama de servicios expuestos por el sistema.
-          p.text-small(numero="6" titulo="Diccionario de datos") Diccionario de datos del sistema.
-          p.text-small(numero="7" titulo="<em>Scripts</em>") #[i Scripts] de instalación del sistema.
-          p.text-small(numero="8" titulo="Referencias") Referenciar la ubicación en la que se encuentra la especificación en alguna de las siguientes formas.
+          p(numero="6" titulo="Diccionario de datos") Diccionario de datos del sistema.
+          p(numero="7" titulo="<em>Scripts</em>") #[i Scripts] de instalación del sistema.
+          p(numero="8" titulo="Referencias") Referenciar la ubicación en la que se encuentra la especificación en alguna de las siguientes formas.
             ul.lista-ul.mt-3
               li 
                 i.fas.fa-database(style="color: #F7CB50")
@@ -229,7 +235,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .cajon.color-acento-contenido.p-4
-          p Al mismo tiempo es importante tener en cuenta que según el Ministerio TIC (2018), en este documento queda plasmada toda la información del proyecto de software, con una descripción bien detallada sobre las características técnicas y físicas de cada elemento; este manual va dirigido al administrador del sistema y a otros ingenieros para que puedan hacer un respectivo mantenimiento en caso de que sea necesario; estos también contendrán la siguiente información:
+          p Al mismo tiempo es importante tener en cuenta que según el Ministerio TIC (2018), en este documento queda plasmada toda la información del proyecto de #[i software], con una descripción bien detallada sobre las características técnicas y físicas de cada elemento; este manual va dirigido al administrador del sistema y a otros ingenieros para que puedan hacer un respectivo mantenimiento en caso de que sea necesario; estos también contendrán la siguiente información:
     .titulo-sexto.color-acento-contenido
       p.mb-0 #[b Tabla 1]. Manuales técnicos
     .tabla-b.color-acento-contenido.mb-5
@@ -238,7 +244,7 @@
           th(style="width: 30%") Atributo
           th Descripción
         tr
-          th Vulgar
+          th Nombre del sistema
           td Nombre completo del sistema de información.
         tr
           th Sigla
@@ -278,7 +284,7 @@
           td Indique la ubicación (URL) de la documentación detallada técnica y funcional del sistema (arquitectura, manuales, diseños, etc.).
         tr
           th Arquitectura tecnológica
-          td #[i Stand alone], #[i Web], cliente servidor, #[i App] móvil, #[i software] as a service (nube), etc.
+          td #[i Stand alone], #[i Web], cliente servidor, #[i App] móvil, #[i software as a service] (nube), etc.
     .separador.mb-5
     #t_1_2
     .titulo-segundo.color-acento-contenido
@@ -416,7 +422,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img13.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Ejemplo, en un #[i software] de telefonía IP (comunicación), se debe indicar cuántas líneas admite el software, cuántos usuarios y contraseñas admite, el tipo de base de datos que necesita, cuántas zonas o particiones soporta, etc.
+        p.mb-0 Ejemplo, en un #[i software] de telefonía IP (comunicación), se debe indicar cuántas líneas admite el #[i software], cuántos usuarios y contraseñas admite, el tipo de base de datos que necesita, cuántas zonas o particiones soporta, etc.
     p De acuerdo a UGUR (2009), son importantes los datos de contacto del desarrollador, de la empresa que creó la solución informática o del departamento de atención al cliente, dado el caso que se presente alguna duda relacionada con el producto, garantía, registro, etc.
     p.mb-5 También, en este apartado se incluye cualquier exención de responsabilidad legal, divulgaciones, advertencias de agencias gubernamentales oficiales, información de registro, etc.
     .row.align-items-center.mb-5

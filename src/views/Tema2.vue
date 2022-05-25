@@ -140,9 +140,8 @@
           img(src='@/assets/curso/tema2/img20.png' alt='AvatarTop')
           .tarjeta.color-primario
             .p-4
-              h3.text-center Coaching corporativo
+              h3.text-center #[i Coaching] corporativo
               p Se busca el desarrollo individual y colectivo en la organización, con el foco en un equipo asertivo, de alto desempeño y comprometido en la mejora de resultados. Se pretende que los colaboradores se sientan parte de la empresa para  alcanzar los resultados esperados.
-    p.mb-5 Después de clasificar e identificar la capacitación requerida es muy importante, desde el punto de vista metodológico, seleccionar la forma de presentarla, para lo cual se relacionan las siguientes técnicas que corresponden a mecanismos reconocidos y muy utilizados en diferentes organizaciones:
     .separador.mb-5
     #t_2_2
     .titulo-segundo.color-acento-contenido
@@ -359,55 +358,55 @@ export default {
     ],
     datosLineaTiempoB: [
       {
-        titulo: '',
+        titulo: 'Contenidos útiles',
         texto:
           'Elija contenidos útiles y de valor para su público. Investiga cuáles son las dudas más frecuentes entre su audiencia y ofrézcales la respuesta a sus preguntas con un video.',
         icono: require('@/assets/curso/tema2/img20.svg'),
       },
       {
-        titulo: '',
+        titulo: 'Crear un guion',
         texto:
           'Cree un guión sobre la narración que va a ir teniendo en el transcurso del material audiovisual y ensáyelo para evitar equivocaciones al hacer la grabación y realizar múltiples ediciones.',
         icono: require('@/assets/curso/tema2/img21.svg'),
       },
       {
-        titulo: '',
+        titulo: 'Extensión',
         texto:
-          'Los videos largos aburren, por lo que su material debe no tener una duración mayor a 10 minutos. Si cree que su video no se podrá desarrollar en ese periodo de tiempo, puede manejarlo por partes o capítulos.',
+          'Los videos largos aburren, por lo que su material debe no tener una duración mayor a 10 minutos. Si cree que su video no se podrá desarrollar en ese período de tiempo, puede manejarlo por partes o capítulos.',
         icono: require('@/assets/curso/tema2/img22.svg'),
       },
       {
-        titulo: '',
+        titulo: 'Música',
         texto:
           'No utilice música de fondo, porque puede distraer al usuario. Al único sonido que se le debe prestar total atención es a su voz.',
         icono: require('@/assets/curso/tema2/img23.svg'),
       },
       {
-        titulo: '',
+        titulo: 'Lenguaje',
         texto:
           'Utilice un lenguaje claro y sencillo. Las personas que ven su videotutorial posiblemente no tienen un conocimiento avanzado previo y se les dificulte entender algunos conceptos del procedimiento que está explicando.',
         icono: require('@/assets/curso/tema2/img24.svg'),
       },
       {
-        titulo: '',
+        titulo: 'Redes sociales',
         texto:
           'Compártalo en todas las redes sociales. Este es uno de los recursos al que más provecho le puede sacar. Además de publicarlo en su blog, puede publicarlo en YouTube, Twitter y Facebook y observar la respuesta que generan.',
         icono: require('@/assets/curso/tema2/img25.svg'),
       },
       {
-        titulo: '',
+        titulo: 'Planeación',
         texto:
           'Solo si es un experto en el tema puede  improvisar. Un videotutorial siempre debe estar planificado, desde las capturas de pantalla que mostrará hasta el guion que seguirá. Si considera que sabe desarrollar muy bien el tema sin titubear, ¡adelante! Puede crear su video sin planificación.',
         icono: require('@/assets/curso/tema2/img26.svg'),
       },
       {
-        titulo: '',
+        titulo: 'Presentación',
         texto:
           'Cuide la presentación de su video. No solo es la narración del procedimiento lo que debe cuidar, también debe tener en orden sus imágenes o las capturas de pantalla que va presentando en el transcurso.',
         icono: require('@/assets/curso/tema2/img27.svg'),
       },
       {
-        titulo: '',
+        titulo: 'Iluminación',
         texto:
           'Verifique la iluminación de su entorno. En caso de que sus videotutoriales no sean grabaciones de pantallas y tenga que grabar los pasos de algún procedimiento, consiga un espacio para grabar con la iluminación correcta.',
         icono: require('@/assets/curso/tema2/img28.svg'),
